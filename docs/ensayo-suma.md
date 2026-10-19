@@ -7,5 +7,5 @@ El caso con cero pasó porque `7 - 0` y `7 + 0` dan el mismo resultado.
 
 [Corrida roja real](https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188123316).
 
-La protección de `main` dejó el PR bloqueado. La corrección restaura `a + b`;
-hay que esperar el check verde antes de integrar.
+La protección de `main` dejó el PR bloqueado. La corrección restauró `a + b`
+en otro commit y el PR se integró después de aprobar las pruebas.

@@ -1,4 +1,4 @@
-# Registro de evidencias reales
+# Evidencias de las ejecuciones
 
 Repositorio: [Deathstone16/tp-ci-cd](https://github.com/Deathstone16/tp-ci-cd).
 
@@ -76,6 +76,6 @@ Las imágenes `github-*` son capturas originales de los resúmenes de GitHub Act
 Como el navegador no tenía sesión iniciada, GitHub pedía iniciar sesión para
 mostrar el texto de los logs. Se descargaron los logs autenticados con GitHub CLI
 y se capturaron sus extractos en una vista local identificada como tal.
-Los TXT conservan los logs completos; los HTML y PNG son material de consulta,
-no una imitación de la interfaz de GitHub. Para ver los pasos expandidos en
-GitHub durante la defensa, iniciar sesión en la cuenta y abrir los enlaces.
+Los TXT conservan los logs completos. Las capturas de los extractos están
+identificadas como vistas locales del log descargado. El contenido completo de
+los pasos también está disponible en los enlaces de Actions al iniciar sesión.
