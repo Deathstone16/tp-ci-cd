@@ -1,0 +1,244 @@
+Verificar	Set up job	﻿2026-10-19T02:05:07.9821936Z Current runner version: '2.337.0'
+Verificar	Set up job	2026-10-19T02:05:07.9845765Z ##[group]Runner Image Provisioner
+Verificar	Set up job	2026-10-19T02:05:07.9847356Z Hosted Compute Agent
+Verificar	Set up job	2026-10-19T02:05:07.9848505Z Version: 20261012.601
+Verificar	Set up job	2026-10-19T02:05:07.9849496Z Commit: f3dc54e1fb89da6852db922499a0233137369e1d
+Verificar	Set up job	2026-10-19T02:05:07.9850633Z Build Date: 2026-10-12T17:48:21Z
+Verificar	Set up job	2026-10-19T02:05:07.9851364Z Worker ID: {f7f04cf5-049a-4139-a874-5259ea73e82a}
+Verificar	Set up job	2026-10-19T02:05:07.9852081Z Region: westcentralus
+Verificar	Set up job	2026-10-19T02:05:07.9852776Z Cloud: Azure
+Verificar	Set up job	2026-10-19T02:05:07.9853305Z ##[endgroup]
+Verificar	Set up job	2026-10-19T02:05:07.9855317Z ##[group]Operating System
+Verificar	Set up job	2026-10-19T02:05:07.9856409Z Ubuntu
+Verificar	Set up job	2026-10-19T02:05:07.9856976Z 24.04.5
+Verificar	Set up job	2026-10-19T02:05:07.9857590Z LTS
+Verificar	Set up job	2026-10-19T02:05:07.9858098Z ##[endgroup]
+Verificar	Set up job	2026-10-19T02:05:07.9858646Z ##[group]Runner Image
+Verificar	Set up job	2026-10-19T02:05:07.9859321Z Image: ubuntu-24.04
+Verificar	Set up job	2026-10-19T02:05:07.9859931Z Version: 20261012.334.1
+Verificar	Set up job	2026-10-19T02:05:07.9861135Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+Verificar	Set up job	2026-10-19T02:05:07.9862797Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+Verificar	Set up job	2026-10-19T02:05:07.9863822Z ##[endgroup]
+Verificar	Set up job	2026-10-19T02:05:07.9864964Z ##[group]GITHUB_TOKEN Permissions
+Verificar	Set up job	2026-10-19T02:05:07.9867512Z Contents: read
+Verificar	Set up job	2026-10-19T02:05:07.9868156Z Metadata: read
+Verificar	Set up job	2026-10-19T02:05:07.9868786Z ##[endgroup]
+Verificar	Set up job	2026-10-19T02:05:07.9870772Z Secret source: Actions
+Verificar	Set up job	2026-10-19T02:05:07.9871809Z Cache mode: write
+Verificar	Set up job	2026-10-19T02:05:07.9872766Z Prepare workflow directory
+Verificar	Set up job	2026-10-19T02:05:08.0202429Z Prepare all required actions
+Verificar	Set up job	2026-10-19T02:05:08.0249398Z Getting action download info
+Verificar	Set up job	2026-10-19T02:05:08.3239908Z Download action repository 'actions/checkout@v6' (SHA:d23441a48e516b6c34aea4fa41551a30e30af803)
+Verificar	Set up job	2026-10-19T02:05:08.4309635Z Download action repository 'actions/setup-python@v6' (SHA:ece7cb06caefa5fff74198d8649806c4678c61a1)
+Verificar	Set up job	2026-10-19T02:05:08.5074618Z Download action repository 'actions/upload-pages-artifact@v4' (SHA:7b1f4a764d45c48632c6b24a0339c27f5614fb0b)
+Verificar	Set up job	2026-10-19T02:05:08.7988993Z Getting action download info
+Verificar	Set up job	2026-10-19T02:05:08.9119409Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+Verificar	Set up job	2026-10-19T02:05:09.0356778Z Complete job name: Verificar
+Verificar	Traer el codigo	﻿2026-10-19T02:05:09.1110687Z ##[group]Run actions/checkout@v6
+Verificar	Traer el codigo	2026-10-19T02:05:09.1111569Z with:
+Verificar	Traer el codigo	2026-10-19T02:05:09.1112018Z   repository: Deathstone16/tp-ci-cd
+Verificar	Traer el codigo	2026-10-19T02:05:09.1116274Z   token: ***
+Verificar	Traer el codigo	2026-10-19T02:05:09.1116712Z   ssh-strict: true
+Verificar	Traer el codigo	2026-10-19T02:05:09.1117137Z   ssh-user: git
+Verificar	Traer el codigo	2026-10-19T02:05:09.1117565Z   persist-credentials: true
+Verificar	Traer el codigo	2026-10-19T02:05:09.1118038Z   clean: true
+Verificar	Traer el codigo	2026-10-19T02:05:09.1118470Z   sparse-checkout-cone-mode: true
+Verificar	Traer el codigo	2026-10-19T02:05:09.1118970Z   fetch-depth: 1
+Verificar	Traer el codigo	2026-10-19T02:05:09.1119381Z   fetch-tags: false
+Verificar	Traer el codigo	2026-10-19T02:05:09.1119812Z   show-progress: true
+Verificar	Traer el codigo	2026-10-19T02:05:09.1120241Z   lfs: false
+Verificar	Traer el codigo	2026-10-19T02:05:09.1120641Z   submodules: false
+Verificar	Traer el codigo	2026-10-19T02:05:09.1121105Z   set-safe-directory: true
+Verificar	Traer el codigo	2026-10-19T02:05:09.1121593Z   allow-unsafe-pr-checkout: false
+Verificar	Traer el codigo	2026-10-19T02:05:09.1122378Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:05:09.2128933Z Syncing repository: Deathstone16/tp-ci-cd
+Verificar	Traer el codigo	2026-10-19T02:05:09.2130742Z ##[group]Getting Git version info
+Verificar	Traer el codigo	2026-10-19T02:05:09.2131476Z Working directory is '/home/runner/work/tp-ci-cd/tp-ci-cd'
+Verificar	Traer el codigo	2026-10-19T02:05:09.2132546Z [command]/usr/bin/git version
+Verificar	Traer el codigo	2026-10-19T02:05:09.2190787Z git version 2.55.0
+Verificar	Traer el codigo	2026-10-19T02:05:09.2215280Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:05:09.2243062Z Temporarily overriding HOME='/home/runner/work/_temp/7778aa1f-bc74-4480-aaa1-9e845ef84e2a' before making global git config changes
+Verificar	Traer el codigo	2026-10-19T02:05:09.2245522Z Adding repository directory to the temporary git global config as a safe directory
+Verificar	Traer el codigo	2026-10-19T02:05:09.2250850Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tp-ci-cd/tp-ci-cd
+Verificar	Traer el codigo	2026-10-19T02:05:09.2321279Z Deleting the contents of '/home/runner/work/tp-ci-cd/tp-ci-cd'
+Verificar	Traer el codigo	2026-10-19T02:05:09.2327408Z ##[group]Determining repository object format
+Verificar	Traer el codigo	2026-10-19T02:05:09.2330405Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:05:09.2331722Z ##[group]Initializing the repository
+Verificar	Traer el codigo	2026-10-19T02:05:09.2336392Z [command]/usr/bin/git init /home/runner/work/tp-ci-cd/tp-ci-cd
+Verificar	Traer el codigo	2026-10-19T02:05:09.2455951Z hint: Using 'master' as the name for the initial branch. This default branch name
+Verificar	Traer el codigo	2026-10-19T02:05:09.2458240Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Verificar	Traer el codigo	2026-10-19T02:05:09.2459843Z hint: to use in all of your new repositories, which will suppress this warning,
+Verificar	Traer el codigo	2026-10-19T02:05:09.2461235Z hint: call:
+Verificar	Traer el codigo	2026-10-19T02:05:09.2461994Z hint:
+Verificar	Traer el codigo	2026-10-19T02:05:09.2462951Z hint: 	git config --global init.defaultBranch <name>
+Verificar	Traer el codigo	2026-10-19T02:05:09.2464146Z hint:
+Verificar	Traer el codigo	2026-10-19T02:05:09.2465240Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Verificar	Traer el codigo	2026-10-19T02:05:09.2467236Z hint: 'development'. The just-created branch can be renamed via this command:
+Verificar	Traer el codigo	2026-10-19T02:05:09.2468556Z hint:
+Verificar	Traer el codigo	2026-10-19T02:05:09.2469290Z hint: 	git branch -m <name>
+Verificar	Traer el codigo	2026-10-19T02:05:09.2470181Z hint:
+Verificar	Traer el codigo	2026-10-19T02:05:09.2471347Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Verificar	Traer el codigo	2026-10-19T02:05:09.2473192Z Initialized empty Git repository in /home/runner/work/tp-ci-cd/tp-ci-cd/.git/
+Verificar	Traer el codigo	2026-10-19T02:05:09.2481519Z [command]/usr/bin/git remote add origin https://github.com/Deathstone16/tp-ci-cd
+Verificar	Traer el codigo	2026-10-19T02:05:09.2524249Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:05:09.2525436Z ##[group]Disabling automatic garbage collection
+Verificar	Traer el codigo	2026-10-19T02:05:09.2528198Z [command]/usr/bin/git config --local gc.auto 0
+Verificar	Traer el codigo	2026-10-19T02:05:09.2559441Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:05:09.2560569Z ##[group]Setting up auth
+Verificar	Traer el codigo	2026-10-19T02:05:09.2561412Z Removing SSH command configuration
+Verificar	Traer el codigo	2026-10-19T02:05:09.2567557Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Verificar	Traer el codigo	2026-10-19T02:05:09.2604613Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Verificar	Traer el codigo	2026-10-19T02:05:09.2967120Z Removing HTTP extra header
+Verificar	Traer el codigo	2026-10-19T02:05:09.2976583Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Verificar	Traer el codigo	2026-10-19T02:05:09.3015009Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Verificar	Traer el codigo	2026-10-19T02:05:09.3233476Z Removing includeIf entries pointing to credentials config files
+Verificar	Traer el codigo	2026-10-19T02:05:09.3239880Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Verificar	Traer el codigo	2026-10-19T02:05:09.3274878Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Verificar	Traer el codigo	2026-10-19T02:05:09.3501023Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-15a1b138-5ffd-41b6-8aa8-b80a035f3eac.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Verificar	Traer el codigo	2026-10-19T02:05:09.3543103Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git.path /home/runner/work/_temp/git-credentials-15a1b138-5ffd-41b6-8aa8-b80a035f3eac.config
+Verificar	Traer el codigo	2026-10-19T02:05:09.3579244Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-15a1b138-5ffd-41b6-8aa8-b80a035f3eac.config
+Verificar	Traer el codigo	2026-10-19T02:05:09.3615594Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-15a1b138-5ffd-41b6-8aa8-b80a035f3eac.config
+Verificar	Traer el codigo	2026-10-19T02:05:09.3657915Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-15a1b138-5ffd-41b6-8aa8-b80a035f3eac.config
+Verificar	Traer el codigo	2026-10-19T02:05:09.3688500Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:05:09.3689251Z ##[group]Fetching the repository
+Verificar	Traer el codigo	2026-10-19T02:05:09.3698403Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +b399595bb379155ee3af0a8cac1214e60370eeeb:refs/remotes/pull/1/merge
+Verificar	Traer el codigo	2026-10-19T02:05:09.6844911Z From https://github.com/Deathstone16/tp-ci-cd
+Verificar	Traer el codigo	2026-10-19T02:05:09.6846372Z  * [new ref]         b399595bb379155ee3af0a8cac1214e60370eeeb -> pull/1/merge
+Verificar	Traer el codigo	2026-10-19T02:05:09.6857560Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:05:09.6859088Z ##[group]Determining the checkout info
+Verificar	Traer el codigo	2026-10-19T02:05:09.6860164Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:05:09.6860730Z [command]/usr/bin/git sparse-checkout disable
+Verificar	Traer el codigo	2026-10-19T02:05:09.6911295Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Verificar	Traer el codigo	2026-10-19T02:05:09.6943768Z ##[group]Checking out the ref
+Verificar	Traer el codigo	2026-10-19T02:05:09.6948207Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/1/merge
+Verificar	Traer el codigo	2026-10-19T02:05:09.6995620Z Note: switching to 'refs/remotes/pull/1/merge'.
+Verificar	Traer el codigo	2026-10-19T02:05:09.6996888Z 
+Verificar	Traer el codigo	2026-10-19T02:05:09.6997362Z You are in 'detached HEAD' state. You can look around, make experimental
+Verificar	Traer el codigo	2026-10-19T02:05:09.6998391Z changes and commit them, and you can discard any commits you make in this
+Verificar	Traer el codigo	2026-10-19T02:05:09.6999361Z state without impacting any branches by switching back to a branch.
+Verificar	Traer el codigo	2026-10-19T02:05:09.6999963Z 
+Verificar	Traer el codigo	2026-10-19T02:05:09.7000379Z If you want to create a new branch to retain commits you create, you may
+Verificar	Traer el codigo	2026-10-19T02:05:09.7001323Z do so (now or later) by using -c with the switch command. Example:
+Verificar	Traer el codigo	2026-10-19T02:05:09.7002187Z 
+Verificar	Traer el codigo	2026-10-19T02:05:09.7002688Z   git switch -c <new-branch-name>
+Verificar	Traer el codigo	2026-10-19T02:05:09.7003484Z 
+Verificar	Traer el codigo	2026-10-19T02:05:09.7004026Z Or undo this operation with:
+Verificar	Traer el codigo	2026-10-19T02:05:09.7004815Z 
+Verificar	Traer el codigo	2026-10-19T02:05:09.7005324Z   git switch -
+Verificar	Traer el codigo	2026-10-19T02:05:09.7006243Z 
+Verificar	Traer el codigo	2026-10-19T02:05:09.7007196Z Turn off this advice by setting config variable advice.detachedHead to false
+Verificar	Traer el codigo	2026-10-19T02:05:09.7008446Z 
+Verificar	Traer el codigo	2026-10-19T02:05:09.7009806Z HEAD is now at b399595 Merge 46dff9481638ef4acb35640b2163e174be0f6a7d into 32e05c99ccd68225a6a0c1e788a45d9083dc454d
+Verificar	Traer el codigo	2026-10-19T02:05:09.7013969Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:05:09.7050662Z [command]/usr/bin/git log -1 --format=%H
+Verificar	Traer el codigo	2026-10-19T02:05:09.7078825Z b399595bb379155ee3af0a8cac1214e60370eeeb
+Verificar	Preparar Python	﻿2026-10-19T02:05:09.7394110Z ##[group]Run actions/setup-python@v6
+Verificar	Preparar Python	2026-10-19T02:05:09.7394834Z with:
+Verificar	Preparar Python	2026-10-19T02:05:09.7395332Z   python-version: 3.12
+Verificar	Preparar Python	2026-10-19T02:05:09.7396182Z   check-latest: false
+Verificar	Preparar Python	2026-10-19T02:05:09.7400452Z   token: ***
+Verificar	Preparar Python	2026-10-19T02:05:09.7400980Z   update-environment: true
+Verificar	Preparar Python	2026-10-19T02:05:09.7401562Z   allow-prereleases: false
+Verificar	Preparar Python	2026-10-19T02:05:09.7402139Z   freethreaded: false
+Verificar	Preparar Python	2026-10-19T02:05:09.7402663Z ##[endgroup]
+Verificar	Preparar Python	2026-10-19T02:05:09.8701508Z ##[group]Installed versions
+Verificar	Preparar Python	2026-10-19T02:05:09.8801144Z Successfully set up CPython (3.12.15)
+Verificar	Preparar Python	2026-10-19T02:05:09.8802986Z ##[endgroup]
+Verificar	Instalar dependencias	﻿2026-10-19T02:05:09.8990606Z ##[group]Run python -m pip install -r requirements.txt
+Verificar	Instalar dependencias	2026-10-19T02:05:09.8992042Z ^[[36;1mpython -m pip install -r requirements.txt^[[0m
+Verificar	Instalar dependencias	2026-10-19T02:05:09.9291570Z shell: /usr/bin/bash -e {0}
+Verificar	Instalar dependencias	2026-10-19T02:05:09.9292459Z env:
+Verificar	Instalar dependencias	2026-10-19T02:05:09.9293218Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Instalar dependencias	2026-10-19T02:05:09.9294804Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+Verificar	Instalar dependencias	2026-10-19T02:05:09.9296546Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Instalar dependencias	2026-10-19T02:05:09.9297904Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Instalar dependencias	2026-10-19T02:05:09.9299279Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Instalar dependencias	2026-10-19T02:05:09.9300670Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+Verificar	Instalar dependencias	2026-10-19T02:05:09.9301812Z ##[endgroup]
+Verificar	Instalar dependencias	2026-10-19T02:05:10.8487656Z Collecting pytest==8.3.5 (from -r requirements.txt (line 1))
+Verificar	Instalar dependencias	2026-10-19T02:05:11.1894829Z   Downloading pytest-8.3.5-py3-none-any.whl.metadata (7.6 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.2345678Z Collecting pytest-html==4.1.1 (from -r requirements.txt (line 2))
+Verificar	Instalar dependencias	2026-10-19T02:05:11.2579692Z   Downloading pytest_html-4.1.1-py3-none-any.whl.metadata (3.9 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.2854685Z Collecting iniconfig (from pytest==8.3.5->-r requirements.txt (line 1))
+Verificar	Instalar dependencias	2026-10-19T02:05:11.3078003Z   Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.3417112Z Collecting packaging (from pytest==8.3.5->-r requirements.txt (line 1))
+Verificar	Instalar dependencias	2026-10-19T02:05:11.3607012Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.3892850Z Collecting pluggy<2,>=1.5 (from pytest==8.3.5->-r requirements.txt (line 1))
+Verificar	Instalar dependencias	2026-10-19T02:05:11.4096192Z   Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.4409730Z Collecting jinja2>=3.0.0 (from pytest-html==4.1.1->-r requirements.txt (line 2))
+Verificar	Instalar dependencias	2026-10-19T02:05:11.4602906Z   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.4930267Z Collecting pytest-metadata>=2.0.0 (from pytest-html==4.1.1->-r requirements.txt (line 2))
+Verificar	Instalar dependencias	2026-10-19T02:05:11.5120730Z   Downloading pytest_metadata-3.1.1-py3-none-any.whl.metadata (8.6 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.6040314Z Collecting MarkupSafe>=2.0 (from jinja2>=3.0.0->pytest-html==4.1.1->-r requirements.txt (line 2))
+Verificar	Instalar dependencias	2026-10-19T02:05:11.6232276Z   Downloading markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.6468771Z Downloading pytest-8.3.5-py3-none-any.whl (343 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.7275740Z Downloading pytest_html-4.1.1-py3-none-any.whl (23 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.7545527Z Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.7764901Z Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.8008299Z Downloading markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.8222770Z Downloading pytest_metadata-3.1.1-py3-none-any.whl (11 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.8448852Z Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.8711194Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+Verificar	Instalar dependencias	2026-10-19T02:05:11.9419116Z Installing collected packages: pluggy, packaging, MarkupSafe, iniconfig, pytest, jinja2, pytest-metadata, pytest-html
+Verificar	Instalar dependencias	2026-10-19T02:05:12.4111334Z 
+Verificar	Instalar dependencias	2026-10-19T02:05:12.4130143Z Successfully installed MarkupSafe-3.0.4 iniconfig-2.3.1 jinja2-3.1.6 packaging-26.3 pluggy-1.7.0 pytest-8.3.5 pytest-html-4.1.1 pytest-metadata-3.1.1
+Verificar	Ejecutar pruebas y generar reporte	﻿2026-10-19T02:05:12.4630740Z ##[group]Run python -m pytest -v --html=site/index.html --self-contained-html
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.4631386Z ^[[36;1mpython -m pytest -v --html=site/index.html --self-contained-html^[[0m
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.4696960Z shell: /usr/bin/bash -e {0}
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.4697249Z env:
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.4697526Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.4698008Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.4698460Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.4698853Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.4699241Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.4699642Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.4699961Z ##[endgroup]
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.7896030Z ============================= test session starts ==============================
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.7897273Z platform linux -- Python 3.12.15, pytest-8.3.5, pluggy-1.7.0 -- /opt/hostedtoolcache/Python/3.12.15/x64/bin/python
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.7898042Z cachedir: .pytest_cache
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.7899133Z metadata: {'Python': '3.12.15', 'Platform': 'Linux-6.17.0-1022-azure-x86_64-with-glibc2.39', 'Packages': {'pytest': '8.3.5', 'pluggy': '1.7.0'}, 'Plugins': {'metadata': '3.1.1', 'html': '4.1.1'}, 'CI': 'true', 'JAVA_HOME': '/usr/lib/jvm/temurin-17-jdk-amd64'}
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.7900302Z rootdir: /home/runner/work/tp-ci-cd/tp-ci-cd
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.7900691Z plugins: metadata-3.1.1, html-4.1.1
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.7974976Z collecting ... collected 4 items
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.7975328Z 
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.7986953Z test_calculadora.py::test_suma_positivos PASSED                          [ 25%]
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.7995100Z test_calculadora.py::test_suma_con_cero PASSED                           [ 50%]
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.8003135Z test_calculadora.py::test_suma_negativos PASSED                          [ 75%]
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.8027894Z test_calculadora.py::test_suma_decimales PASSED                          [100%]
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.8028415Z 
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.8028719Z - Generated html report: file:///home/runner/work/tp-ci-cd/tp-ci-cd/site/index.html -
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:05:12.8029290Z ============================== 4 passed in 0.02s ===============================
+Verificar	Post Preparar Python	﻿2026-10-19T02:05:12.8401879Z Post job cleanup.
+Verificar	Post Traer el codigo	﻿2026-10-19T02:05:12.9780309Z Post job cleanup.
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.0666234Z [command]/usr/bin/git version
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.0707676Z git version 2.55.0
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.0750100Z Temporarily overriding HOME='/home/runner/work/_temp/310abb6a-a5b9-4f45-9d3a-41e81283a419' before making global git config changes
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.0753752Z Adding repository directory to the temporary git global config as a safe directory
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.0757008Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tp-ci-cd/tp-ci-cd
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.0788988Z Removing SSH command configuration
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.0795577Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.0831680Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1078047Z Removing HTTP extra header
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1084056Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1121835Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1367249Z Removing includeIf entries pointing to credentials config files
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1376761Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1404750Z includeif.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git.path
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1406025Z includeif.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git/worktrees/*.path
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1407184Z includeif.gitdir:/github/workspace/.git.path
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1408133Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1417563Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git.path
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1446431Z /home/runner/work/_temp/git-credentials-15a1b138-5ffd-41b6-8aa8-b80a035f3eac.config
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1466800Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git.path /home/runner/work/_temp/git-credentials-15a1b138-5ffd-41b6-8aa8-b80a035f3eac.config
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1499078Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git/worktrees/*.path
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1530735Z /home/runner/work/_temp/git-credentials-15a1b138-5ffd-41b6-8aa8-b80a035f3eac.config
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1541761Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-15a1b138-5ffd-41b6-8aa8-b80a035f3eac.config
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1583472Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1609082Z /github/runner_temp/git-credentials-15a1b138-5ffd-41b6-8aa8-b80a035f3eac.config
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1618674Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-15a1b138-5ffd-41b6-8aa8-b80a035f3eac.config
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1660350Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1687620Z /github/runner_temp/git-credentials-15a1b138-5ffd-41b6-8aa8-b80a035f3eac.config
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1698201Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-15a1b138-5ffd-41b6-8aa8-b80a035f3eac.config
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1737350Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Verificar	Post Traer el codigo	2026-10-19T02:05:13.1969386Z Removing credentials config '/home/runner/work/_temp/git-credentials-15a1b138-5ffd-41b6-8aa8-b80a035f3eac.config'
+Verificar	Complete job	﻿2026-10-19T02:05:13.2109434Z Cleaning up orphan processes

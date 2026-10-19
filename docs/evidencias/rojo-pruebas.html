@@ -1,0 +1,28 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><title>rojo-pruebas — evidencia real</title>
+<style>body{font:16px system-ui;margin:30px;color:#192c43;background:#f5f7fb}h1{font-size:25px;color:#a72d3b}p{line-height:1.5}code,pre{font:12px/1.55 Consolas,monospace}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:white;border:1px solid #ccd6e4;border-radius:8px;padding:16px}a{color:#1b5daa}small{color:#52657a}</style>
+<h1>rojo-pruebas · failure</h1>
+<p><b>Log real de GitHub Actions</b> · 18/10/2026 23:03:05 UTC-3<br>
+Repositorio: Deathstone16/tp-ci-cd<br>Commit: <code>7ba21e67ee2863345286cecd226efb3cabf59aa6</code><br>
+Paso: <b>Ejecutar pruebas y generar reporte</b></p>
+<p><a href="https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188123316">Ejecución #39188123316</a> · <a href="rojo-pruebas.txt">Log completo descargado</a></p>
+<pre>﻿2026-10-19T02:03:12.5691543Z ##[group]Run python -m pytest -v --html=site/index.html --self-contained-html
+2026-10-19T02:03:13.0252750Z platform linux -- Python 3.12.15, pytest-8.3.5, pluggy-1.7.0 -- /opt/hostedtoolcache/Python/3.12.15/x64/bin/python
+2026-10-19T02:03:13.0367009Z collecting ... collected 4 items
+2026-10-19T02:03:13.0554999Z test_calculadora.py::test_suma_positivos FAILED                          [ 25%]
+2026-10-19T02:03:13.0563406Z test_calculadora.py::test_suma_con_cero PASSED                           [ 50%]
+2026-10-19T02:03:13.0584064Z test_calculadora.py::test_suma_negativos FAILED                          [ 75%]
+2026-10-19T02:03:13.0625905Z test_calculadora.py::test_suma_decimales FAILED                          [100%]
+2026-10-19T02:03:13.0628252Z &gt;       assert sumar(2, 3) == 5
+2026-10-19T02:03:13.0628551Z E       assert -1 == 5
+2026-10-19T02:03:13.0628831Z E        +  where -1 = sumar(2, 3)
+2026-10-19T02:03:13.0629175Z test_calculadora.py:5: AssertionError
+2026-10-19T02:03:13.0631913Z test_calculadora.py:13: AssertionError
+2026-10-19T02:03:13.0633813Z E        +  where -1.0 = sumar(1.5, 2.5)
+2026-10-19T02:03:13.0634184Z test_calculadora.py:17: AssertionError
+2026-10-19T02:03:13.0635954Z FAILED test_calculadora.py::test_suma_positivos - assert -1 == 5
+2026-10-19T02:03:13.0636426Z  +  where -1 = sumar(2, 3)
+2026-10-19T02:03:13.0637100Z FAILED test_calculadora.py::test_suma_negativos - assert 1 == -5
+2026-10-19T02:03:13.0637997Z FAILED test_calculadora.py::test_suma_decimales - assert -1.0 == 4.0
+2026-10-19T02:03:13.0638487Z  +  where -1.0 = sumar(1.5, 2.5)
+2026-10-19T02:03:13.0638882Z ========================= 3 failed, 1 passed in 0.04s ==========================
+2026-10-19T02:03:13.0896149Z ##[error]Process completed with exit code 1.</pre><small>Extracto literal de líneas del paso indicado. El TXT conserva el log completo.<br>Esta vista presenta el log descargado; no simula la interfaz de GitHub.</small></html>

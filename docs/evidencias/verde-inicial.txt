@@ -1,0 +1,310 @@
+Verificar	Set up job	﻿2026-10-19T02:01:49.2981241Z Current runner version: '2.337.0'
+Verificar	Set up job	2026-10-19T02:01:49.3000100Z ##[group]Runner Image Provisioner
+Verificar	Set up job	2026-10-19T02:01:49.3000684Z Hosted Compute Agent
+Verificar	Set up job	2026-10-19T02:01:49.3001125Z Version: 20261012.601
+Verificar	Set up job	2026-10-19T02:01:49.3001511Z Commit: f3dc54e1fb89da6852db922499a0233137369e1d
+Verificar	Set up job	2026-10-19T02:01:49.3002006Z Build Date: 2026-10-12T17:48:21Z
+Verificar	Set up job	2026-10-19T02:01:49.3002441Z Worker ID: {f2dc63e3-cf19-4c54-83ea-68676b1df1d9}
+Verificar	Set up job	2026-10-19T02:01:49.3002875Z Region: southcentralus
+Verificar	Set up job	2026-10-19T02:01:49.3003265Z Cloud: Azure
+Verificar	Set up job	2026-10-19T02:01:49.3003604Z ##[endgroup]
+Verificar	Set up job	2026-10-19T02:01:49.3004585Z ##[group]Operating System
+Verificar	Set up job	2026-10-19T02:01:49.3004963Z Ubuntu
+Verificar	Set up job	2026-10-19T02:01:49.3005280Z 24.04.5
+Verificar	Set up job	2026-10-19T02:01:49.3005626Z LTS
+Verificar	Set up job	2026-10-19T02:01:49.3005943Z ##[endgroup]
+Verificar	Set up job	2026-10-19T02:01:49.3006299Z ##[group]Runner Image
+Verificar	Set up job	2026-10-19T02:01:49.3006724Z Image: ubuntu-24.04
+Verificar	Set up job	2026-10-19T02:01:49.3007238Z Version: 20261012.334.1
+Verificar	Set up job	2026-10-19T02:01:49.3007883Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+Verificar	Set up job	2026-10-19T02:01:49.3008938Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+Verificar	Set up job	2026-10-19T02:01:49.3009546Z ##[endgroup]
+Verificar	Set up job	2026-10-19T02:01:49.3010213Z ##[group]GITHUB_TOKEN Permissions
+Verificar	Set up job	2026-10-19T02:01:49.3011632Z Contents: read
+Verificar	Set up job	2026-10-19T02:01:49.3012315Z Metadata: read
+Verificar	Set up job	2026-10-19T02:01:49.3012675Z ##[endgroup]
+Verificar	Set up job	2026-10-19T02:01:49.3014030Z Secret source: Actions
+Verificar	Set up job	2026-10-19T02:01:49.3014650Z Cache mode: write
+Verificar	Set up job	2026-10-19T02:01:49.3015095Z Prepare workflow directory
+Verificar	Set up job	2026-10-19T02:01:49.3238636Z Prepare all required actions
+Verificar	Set up job	2026-10-19T02:01:49.3272505Z Getting action download info
+Verificar	Set up job	2026-10-19T02:01:49.5734276Z Download action repository 'actions/checkout@v6' (SHA:d23441a48e516b6c34aea4fa41551a30e30af803)
+Verificar	Set up job	2026-10-19T02:01:49.9374056Z Download action repository 'actions/setup-python@v6' (SHA:ece7cb06caefa5fff74198d8649806c4678c61a1)
+Verificar	Set up job	2026-10-19T02:01:50.4951245Z Download action repository 'actions/upload-pages-artifact@v4' (SHA:7b1f4a764d45c48632c6b24a0339c27f5614fb0b)
+Verificar	Set up job	2026-10-19T02:01:50.8699699Z Getting action download info
+Verificar	Set up job	2026-10-19T02:01:50.9706944Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+Verificar	Set up job	2026-10-19T02:01:51.3957754Z Complete job name: Verificar
+Verificar	Traer el codigo	﻿2026-10-19T02:01:51.4513370Z ##[group]Run actions/checkout@v6
+Verificar	Traer el codigo	2026-10-19T02:01:51.4514184Z with:
+Verificar	Traer el codigo	2026-10-19T02:01:51.4514726Z   repository: Deathstone16/tp-ci-cd
+Verificar	Traer el codigo	2026-10-19T02:01:51.4519656Z   token: ***
+Verificar	Traer el codigo	2026-10-19T02:01:51.4520182Z   ssh-strict: true
+Verificar	Traer el codigo	2026-10-19T02:01:51.4520722Z   ssh-user: git
+Verificar	Traer el codigo	2026-10-19T02:01:51.4521280Z   persist-credentials: true
+Verificar	Traer el codigo	2026-10-19T02:01:51.4521888Z   clean: true
+Verificar	Traer el codigo	2026-10-19T02:01:51.4522442Z   sparse-checkout-cone-mode: true
+Verificar	Traer el codigo	2026-10-19T02:01:51.4523095Z   fetch-depth: 1
+Verificar	Traer el codigo	2026-10-19T02:01:51.4523628Z   fetch-tags: false
+Verificar	Traer el codigo	2026-10-19T02:01:51.4524190Z   show-progress: true
+Verificar	Traer el codigo	2026-10-19T02:01:51.4524761Z   lfs: false
+Verificar	Traer el codigo	2026-10-19T02:01:51.4525277Z   submodules: false
+Verificar	Traer el codigo	2026-10-19T02:01:51.4525850Z   set-safe-directory: true
+Verificar	Traer el codigo	2026-10-19T02:01:51.4526483Z   allow-unsafe-pr-checkout: false
+Verificar	Traer el codigo	2026-10-19T02:01:51.4527302Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:01:51.5225601Z Syncing repository: Deathstone16/tp-ci-cd
+Verificar	Traer el codigo	2026-10-19T02:01:51.5228439Z ##[group]Getting Git version info
+Verificar	Traer el codigo	2026-10-19T02:01:51.5229717Z Working directory is '/home/runner/work/tp-ci-cd/tp-ci-cd'
+Verificar	Traer el codigo	2026-10-19T02:01:51.5231738Z [command]/usr/bin/git version
+Verificar	Traer el codigo	2026-10-19T02:01:51.5257783Z git version 2.55.0
+Verificar	Traer el codigo	2026-10-19T02:01:51.5272658Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:01:51.5292002Z Temporarily overriding HOME='/home/runner/work/_temp/21964a5d-de69-4568-88bf-e3b00e3574ca' before making global git config changes
+Verificar	Traer el codigo	2026-10-19T02:01:51.5298427Z Adding repository directory to the temporary git global config as a safe directory
+Verificar	Traer el codigo	2026-10-19T02:01:51.5305428Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tp-ci-cd/tp-ci-cd
+Verificar	Traer el codigo	2026-10-19T02:01:51.5351913Z Deleting the contents of '/home/runner/work/tp-ci-cd/tp-ci-cd'
+Verificar	Traer el codigo	2026-10-19T02:01:51.5360115Z ##[group]Determining repository object format
+Verificar	Traer el codigo	2026-10-19T02:01:51.5368352Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:01:51.5370002Z ##[group]Initializing the repository
+Verificar	Traer el codigo	2026-10-19T02:01:51.5372389Z [command]/usr/bin/git init /home/runner/work/tp-ci-cd/tp-ci-cd
+Verificar	Traer el codigo	2026-10-19T02:01:51.5550597Z hint: Using 'master' as the name for the initial branch. This default branch name
+Verificar	Traer el codigo	2026-10-19T02:01:51.5552640Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Verificar	Traer el codigo	2026-10-19T02:01:51.5554718Z hint: to use in all of your new repositories, which will suppress this warning,
+Verificar	Traer el codigo	2026-10-19T02:01:51.5555904Z hint: call:
+Verificar	Traer el codigo	2026-10-19T02:01:51.5556686Z hint:
+Verificar	Traer el codigo	2026-10-19T02:01:51.5557802Z hint: 	git config --global init.defaultBranch <name>
+Verificar	Traer el codigo	2026-10-19T02:01:51.5558835Z hint:
+Verificar	Traer el codigo	2026-10-19T02:01:51.5560033Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Verificar	Traer el codigo	2026-10-19T02:01:51.5561722Z hint: 'development'. The just-created branch can be renamed via this command:
+Verificar	Traer el codigo	2026-10-19T02:01:51.5562808Z hint:
+Verificar	Traer el codigo	2026-10-19T02:01:51.5563636Z hint: 	git branch -m <name>
+Verificar	Traer el codigo	2026-10-19T02:01:51.5564502Z hint:
+Verificar	Traer el codigo	2026-10-19T02:01:51.5565737Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Verificar	Traer el codigo	2026-10-19T02:01:51.5567484Z Initialized empty Git repository in /home/runner/work/tp-ci-cd/tp-ci-cd/.git/
+Verificar	Traer el codigo	2026-10-19T02:01:51.5572002Z [command]/usr/bin/git remote add origin https://github.com/Deathstone16/tp-ci-cd
+Verificar	Traer el codigo	2026-10-19T02:01:51.5623214Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:01:51.5624559Z ##[group]Disabling automatic garbage collection
+Verificar	Traer el codigo	2026-10-19T02:01:51.5626478Z [command]/usr/bin/git config --local gc.auto 0
+Verificar	Traer el codigo	2026-10-19T02:01:51.5658394Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:01:51.5659511Z ##[group]Setting up auth
+Verificar	Traer el codigo	2026-10-19T02:01:51.5660407Z Removing SSH command configuration
+Verificar	Traer el codigo	2026-10-19T02:01:51.5665162Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Verificar	Traer el codigo	2026-10-19T02:01:51.5698176Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Verificar	Traer el codigo	2026-10-19T02:01:51.5960890Z Removing HTTP extra header
+Verificar	Traer el codigo	2026-10-19T02:01:51.5965755Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Verificar	Traer el codigo	2026-10-19T02:01:51.5997762Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Verificar	Traer el codigo	2026-10-19T02:01:51.6169098Z Removing includeIf entries pointing to credentials config files
+Verificar	Traer el codigo	2026-10-19T02:01:51.6173869Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Verificar	Traer el codigo	2026-10-19T02:01:51.6204191Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Verificar	Traer el codigo	2026-10-19T02:01:51.6385328Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-d4216a67-6772-4cca-8404-abf3cd285480.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Verificar	Traer el codigo	2026-10-19T02:01:51.6420678Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git.path /home/runner/work/_temp/git-credentials-d4216a67-6772-4cca-8404-abf3cd285480.config
+Verificar	Traer el codigo	2026-10-19T02:01:51.6450761Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-d4216a67-6772-4cca-8404-abf3cd285480.config
+Verificar	Traer el codigo	2026-10-19T02:01:51.6483072Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-d4216a67-6772-4cca-8404-abf3cd285480.config
+Verificar	Traer el codigo	2026-10-19T02:01:51.6548498Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-d4216a67-6772-4cca-8404-abf3cd285480.config
+Verificar	Traer el codigo	2026-10-19T02:01:51.6575698Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:01:51.6576666Z ##[group]Fetching the repository
+Verificar	Traer el codigo	2026-10-19T02:01:51.6581106Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +32e05c99ccd68225a6a0c1e788a45d9083dc454d:refs/remotes/origin/main
+Verificar	Traer el codigo	2026-10-19T02:01:51.9940761Z From https://github.com/Deathstone16/tp-ci-cd
+Verificar	Traer el codigo	2026-10-19T02:01:51.9941863Z  * [new ref]         32e05c99ccd68225a6a0c1e788a45d9083dc454d -> origin/main
+Verificar	Traer el codigo	2026-10-19T02:01:51.9950050Z [command]/usr/bin/git branch --list --remote origin/main
+Verificar	Traer el codigo	2026-10-19T02:01:51.9973228Z   origin/main
+Verificar	Traer el codigo	2026-10-19T02:01:51.9979224Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+Verificar	Traer el codigo	2026-10-19T02:01:52.0000154Z 32e05c99ccd68225a6a0c1e788a45d9083dc454d
+Verificar	Traer el codigo	2026-10-19T02:01:52.0004867Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:01:52.0006403Z ##[group]Determining the checkout info
+Verificar	Traer el codigo	2026-10-19T02:01:52.0008231Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:01:52.0009273Z [command]/usr/bin/git sparse-checkout disable
+Verificar	Traer el codigo	2026-10-19T02:01:52.0052203Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Verificar	Traer el codigo	2026-10-19T02:01:52.0079028Z ##[group]Checking out the ref
+Verificar	Traer el codigo	2026-10-19T02:01:52.0080983Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Verificar	Traer el codigo	2026-10-19T02:01:52.0127245Z Switched to a new branch 'main'
+Verificar	Traer el codigo	2026-10-19T02:01:52.0131340Z branch 'main' set up to track 'origin/main'.
+Verificar	Traer el codigo	2026-10-19T02:01:52.0137433Z ##[endgroup]
+Verificar	Traer el codigo	2026-10-19T02:01:52.0171923Z [command]/usr/bin/git log -1 --format=%H
+Verificar	Traer el codigo	2026-10-19T02:01:52.0195507Z 32e05c99ccd68225a6a0c1e788a45d9083dc454d
+Verificar	Preparar Python	﻿2026-10-19T02:01:52.0500886Z ##[group]Run actions/setup-python@v6
+Verificar	Preparar Python	2026-10-19T02:01:52.0501541Z with:
+Verificar	Preparar Python	2026-10-19T02:01:52.0502013Z   python-version: 3.12
+Verificar	Preparar Python	2026-10-19T02:01:52.0502541Z   check-latest: false
+Verificar	Preparar Python	2026-10-19T02:01:52.0506802Z   token: ***
+Verificar	Preparar Python	2026-10-19T02:01:52.0507403Z   update-environment: true
+Verificar	Preparar Python	2026-10-19T02:01:52.0507974Z   allow-prereleases: false
+Verificar	Preparar Python	2026-10-19T02:01:52.0508529Z   freethreaded: false
+Verificar	Preparar Python	2026-10-19T02:01:52.0509043Z ##[endgroup]
+Verificar	Preparar Python	2026-10-19T02:01:52.1381903Z ##[group]Installed versions
+Verificar	Preparar Python	2026-10-19T02:01:52.1443343Z Successfully set up CPython (3.12.15)
+Verificar	Preparar Python	2026-10-19T02:01:52.1444423Z ##[endgroup]
+Verificar	Instalar dependencias	﻿2026-10-19T02:01:52.1602225Z ##[group]Run python -m pip install -r requirements.txt
+Verificar	Instalar dependencias	2026-10-19T02:01:52.1604017Z ^[[36;1mpython -m pip install -r requirements.txt^[[0m
+Verificar	Instalar dependencias	2026-10-19T02:01:52.1830746Z shell: /usr/bin/bash -e {0}
+Verificar	Instalar dependencias	2026-10-19T02:01:52.1831490Z env:
+Verificar	Instalar dependencias	2026-10-19T02:01:52.1832124Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Instalar dependencias	2026-10-19T02:01:52.1833100Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+Verificar	Instalar dependencias	2026-10-19T02:01:52.1834062Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Instalar dependencias	2026-10-19T02:01:52.1834937Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Instalar dependencias	2026-10-19T02:01:52.1835813Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Instalar dependencias	2026-10-19T02:01:52.1836704Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+Verificar	Instalar dependencias	2026-10-19T02:01:52.1837566Z ##[endgroup]
+Verificar	Instalar dependencias	2026-10-19T02:01:52.9291754Z Collecting pytest==8.3.5 (from -r requirements.txt (line 1))
+Verificar	Instalar dependencias	2026-10-19T02:01:53.0088467Z   Downloading pytest-8.3.5-py3-none-any.whl.metadata (7.6 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.0350589Z Collecting pytest-html==4.1.1 (from -r requirements.txt (line 2))
+Verificar	Instalar dependencias	2026-10-19T02:01:53.0509943Z   Downloading pytest_html-4.1.1-py3-none-any.whl.metadata (3.9 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.0688198Z Collecting iniconfig (from pytest==8.3.5->-r requirements.txt (line 1))
+Verificar	Instalar dependencias	2026-10-19T02:01:53.0826451Z   Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.1188691Z Collecting packaging (from pytest==8.3.5->-r requirements.txt (line 1))
+Verificar	Instalar dependencias	2026-10-19T02:01:53.1330105Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.1518197Z Collecting pluggy<2,>=1.5 (from pytest==8.3.5->-r requirements.txt (line 1))
+Verificar	Instalar dependencias	2026-10-19T02:01:53.1659508Z   Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.1890139Z Collecting jinja2>=3.0.0 (from pytest-html==4.1.1->-r requirements.txt (line 2))
+Verificar	Instalar dependencias	2026-10-19T02:01:53.2036513Z   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.2362412Z Collecting pytest-metadata>=2.0.0 (from pytest-html==4.1.1->-r requirements.txt (line 2))
+Verificar	Instalar dependencias	2026-10-19T02:01:53.2595114Z   Downloading pytest_metadata-3.1.1-py3-none-any.whl.metadata (8.6 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.3180620Z Collecting MarkupSafe>=2.0 (from jinja2>=3.0.0->pytest-html==4.1.1->-r requirements.txt (line 2))
+Verificar	Instalar dependencias	2026-10-19T02:01:53.3324921Z   Downloading markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.3515968Z Downloading pytest-8.3.5-py3-none-any.whl (343 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.4218576Z Downloading pytest_html-4.1.1-py3-none-any.whl (23 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.4386178Z Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.4566526Z Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.4750076Z Downloading markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.4915665Z Downloading pytest_metadata-3.1.1-py3-none-any.whl (11 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.5109520Z Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.5271193Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+Verificar	Instalar dependencias	2026-10-19T02:01:53.5821570Z Installing collected packages: pluggy, packaging, MarkupSafe, iniconfig, pytest, jinja2, pytest-metadata, pytest-html
+Verificar	Instalar dependencias	2026-10-19T02:01:53.8728176Z 
+Verificar	Instalar dependencias	2026-10-19T02:01:53.8748533Z Successfully installed MarkupSafe-3.0.4 iniconfig-2.3.1 jinja2-3.1.6 packaging-26.3 pluggy-1.7.0 pytest-8.3.5 pytest-html-4.1.1 pytest-metadata-3.1.1
+Verificar	Ejecutar pruebas y generar reporte	﻿2026-10-19T02:01:53.9200069Z ##[group]Run python -m pytest -v --html=site/index.html --self-contained-html
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:53.9200489Z ^[[36;1mpython -m pytest -v --html=site/index.html --self-contained-html^[[0m
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:53.9253485Z shell: /usr/bin/bash -e {0}
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:53.9253639Z env:
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:53.9253793Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:53.9254036Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:53.9254319Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:53.9254536Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:53.9254749Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:53.9254974Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:53.9255156Z ##[endgroup]
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1604871Z ============================= test session starts ==============================
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1605871Z platform linux -- Python 3.12.15, pytest-8.3.5, pluggy-1.7.0 -- /opt/hostedtoolcache/Python/3.12.15/x64/bin/python
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1606437Z cachedir: .pytest_cache
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1607425Z metadata: {'Python': '3.12.15', 'Platform': 'Linux-6.17.0-1022-azure-x86_64-with-glibc2.39', 'Packages': {'pytest': '8.3.5', 'pluggy': '1.7.0'}, 'Plugins': {'metadata': '3.1.1', 'html': '4.1.1'}, 'CI': 'true', 'JAVA_HOME': '/usr/lib/jvm/temurin-17-jdk-amd64'}
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1608320Z rootdir: /home/runner/work/tp-ci-cd/tp-ci-cd
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1608615Z plugins: metadata-3.1.1, html-4.1.1
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1653189Z collecting ... collected 4 items
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1653440Z 
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1661387Z test_calculadora.py::test_suma_positivos PASSED                          [ 25%]
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1665962Z test_calculadora.py::test_suma_con_cero PASSED                           [ 50%]
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1670453Z test_calculadora.py::test_suma_negativos PASSED                          [ 75%]
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1686467Z test_calculadora.py::test_suma_decimales PASSED                          [100%]
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1686714Z 
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1686872Z - Generated html report: file:///home/runner/work/tp-ci-cd/tp-ci-cd/site/index.html -
+Verificar	Ejecutar pruebas y generar reporte	2026-10-19T02:01:54.1687250Z ============================== 4 passed in 0.01s ===============================
+Verificar	Guardar reporte para Pages	﻿2026-10-19T02:01:54.2006571Z ##[group]Run actions/upload-pages-artifact@v4
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2006783Z with:
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2007344Z   path: site
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2007478Z   name: github-pages
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2007605Z   retention-days: 1
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2007722Z env:
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2007876Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2008132Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2008382Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2008616Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2008841Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2009066Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2009256Z ##[endgroup]
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2053529Z ##[start-action display=Archive artifact;id=__actions_upload-pages-artifact.__run]
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2073590Z ##[group]Run echo ::group::Archive artifact
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2073868Z ^[[36;1mecho ::group::Archive artifact^[[0m
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2074028Z ^[[36;1mtar \^[[0m
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2074168Z ^[[36;1m  --dereference --hard-dereference \^[[0m
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2074346Z ^[[36;1m  --directory "$INPUT_PATH" \^[[0m
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2074516Z ^[[36;1m  -cvf "$RUNNER_TEMP/artifact.tar" \^[[0m
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2074687Z ^[[36;1m  --exclude=.git \^[[0m
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2074829Z ^[[36;1m  --exclude=.github \^[[0m
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2074974Z ^[[36;1m  --exclude=".[^/]*" \^[[0m
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2075108Z ^[[36;1m  .^[[0m
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2075226Z ^[[36;1mecho ::endgroup::^[[0m
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2098442Z shell: /usr/bin/sh -e {0}
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2098587Z env:
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2098741Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2098994Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2099237Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2099475Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2099704Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2099930Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2100117Z   INPUT_PATH: site
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2100240Z ##[endgroup]
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2133550Z ##[group]Archive artifact
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2146502Z ./
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2146732Z ./index.html
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2149219Z ##[endgroup]
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2157383Z ##[end-action id=__actions_upload-pages-artifact.__run;outcome=success;conclusion=success;duration_ms=10]
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2159620Z ##[start-action display=Archive artifact;id=__actions_upload-pages-artifact.__run_2]
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2162491Z ##[end-action id=__actions_upload-pages-artifact.__run_2;outcome=skipped;conclusion=skipped;duration_ms=0]
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2164050Z ##[start-action display=Archive artifact;id=__actions_upload-pages-artifact.__run_3]
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2165952Z ##[end-action id=__actions_upload-pages-artifact.__run_3;outcome=skipped;conclusion=skipped;duration_ms=0]
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2166985Z ##[start-action display=Upload artifact;id=__actions_upload-pages-artifact.upload-artifact]
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2211370Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2211618Z with:
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2211739Z   name: github-pages
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2211887Z   path: /home/runner/work/_temp/artifact.tar
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2212053Z   retention-days: 1
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2212180Z   if-no-files-found: error
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2212320Z   compression-level: 6
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2212470Z   overwrite: false
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2212622Z   include-hidden-files: false
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2212757Z env:
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2212904Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2213151Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2213393Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2213913Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2214132Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2214356Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.2214549Z ##[endgroup]
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.3321830Z (node:2118) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.3322494Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.3352898Z With the provided path, there will be 1 file uploaded
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.3367707Z Artifact name is valid!
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.3370932Z Root directory input is valid!
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.6271453Z Beginning upload of artifact content to blob storage
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.6392572Z (node:2118) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.7697775Z Uploaded bytes 8373
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.8074991Z Finished uploading artifact content to blob storage!
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.8075617Z SHA256 digest of uploaded artifact zip is f0e66762f9dcac3737d596d62ed585d975c915d7defdea7d85a62312122932e7
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:54.8077175Z Finalizing artifact upload
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:55.0480641Z Artifact github-pages.zip successfully finalized. Artifact ID 12158847651
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:55.0481591Z Artifact github-pages has been successfully uploaded! Final size is 8373 bytes. Artifact ID is 12158847651
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:55.0486012Z Artifact download URL: https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188021335/artifacts/12158847651
+Verificar	Guardar reporte para Pages	2026-10-19T02:01:55.0582630Z ##[end-action id=__actions_upload-pages-artifact.upload-artifact;outcome=success;conclusion=success;duration_ms=841]
+Verificar	Post Preparar Python	﻿2026-10-19T02:01:55.0654594Z Post job cleanup.
+Verificar	Post Traer el codigo	﻿2026-10-19T02:01:55.1546286Z Post job cleanup.
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2119581Z [command]/usr/bin/git version
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2151819Z git version 2.55.0
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2208329Z Temporarily overriding HOME='/home/runner/work/_temp/8289fbcc-a925-4bbf-8b9e-73f69486f356' before making global git config changes
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2209114Z Adding repository directory to the temporary git global config as a safe directory
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2211875Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tp-ci-cd/tp-ci-cd
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2240722Z Removing SSH command configuration
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2246506Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2277751Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2481503Z Removing HTTP extra header
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2486729Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2519305Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2730956Z Removing includeIf entries pointing to credentials config files
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2745456Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2765339Z includeif.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git.path
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2766278Z includeif.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git/worktrees/*.path
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2766757Z includeif.gitdir:/github/workspace/.git.path
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2767370Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2772831Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git.path
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2797388Z /home/runner/work/_temp/git-credentials-d4216a67-6772-4cca-8404-abf3cd285480.config
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2813457Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git.path /home/runner/work/_temp/git-credentials-d4216a67-6772-4cca-8404-abf3cd285480.config
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2840446Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git/worktrees/*.path
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2863485Z /home/runner/work/_temp/git-credentials-d4216a67-6772-4cca-8404-abf3cd285480.config
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2871063Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tp-ci-cd/tp-ci-cd/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-d4216a67-6772-4cca-8404-abf3cd285480.config
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2904380Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2926776Z /github/runner_temp/git-credentials-d4216a67-6772-4cca-8404-abf3cd285480.config
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2934007Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-d4216a67-6772-4cca-8404-abf3cd285480.config
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2971617Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.2995639Z /github/runner_temp/git-credentials-d4216a67-6772-4cca-8404-abf3cd285480.config
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.3000472Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-d4216a67-6772-4cca-8404-abf3cd285480.config
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.3034441Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Verificar	Post Traer el codigo	2026-10-19T02:01:55.3223947Z Removing credentials config '/home/runner/work/_temp/git-credentials-d4216a67-6772-4cca-8404-abf3cd285480.config'
+Verificar	Complete job	﻿2026-10-19T02:01:55.3346839Z Cleaning up orphan processes
+Verificar	Complete job	2026-10-19T02:01:55.3555923Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
