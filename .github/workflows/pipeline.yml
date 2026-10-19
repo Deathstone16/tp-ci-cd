@@ -1,0 +1,63 @@
+name: CI y reporte
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verificar:
+    name: Verificar
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Traer el codigo
+        uses: actions/checkout@v6
+
+      - name: Preparar Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: python -m pip install -r requirements.txt
+
+      - name: Ejecutar pruebas y generar reporte
+        run: python -m pytest -v --html=site/index.html --self-contained-html
+
+      - name: Guardar reporte para Pages
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  publicar:
+    name: Publicar reporte
+    needs: verificar
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # Ejercicio de secretos: solo se comprueba su presencia, no su valor.
+      - name: Comprobar secreto de demostracion
+        env:
+          DEMO_SECRET: ${{ secrets.DEMO_SECRET }}
+        run: |
+          if [ -z "$DEMO_SECRET" ]; then
+            echo "Falta configurar DEMO_SECRET en Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          echo "El secreto esta configurado. Su valor no se muestra."
+
+      - name: Publicar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
