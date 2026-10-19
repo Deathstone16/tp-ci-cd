@@ -1,0 +1,46 @@
+[
+  {
+    "databaseId": 39188021335,
+    "headSha": "32e05c99ccd68225a6a0c1e788a45d9083dc454d",
+    "createdAt": "2026-10-19T02:01:45Z",
+    "conclusion": "success",
+    "url": "https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188021335",
+    "jobUrl": "https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188021335/job/117854466660",
+    "failedSteps": [],
+    "fechaArgentina": "18/10/2026 23:01:45 UTC-3"
+  },
+  {
+    "databaseId": 39188123316,
+    "headSha": "7ba21e67ee2863345286cecd226efb3cabf59aa6",
+    "createdAt": "2026-10-19T02:03:05Z",
+    "conclusion": "failure",
+    "url": "https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188123316",
+    "jobUrl": "https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188123316/job/117854770898",
+    "failedSteps": [
+      "Ejecutar pruebas y generar reporte"
+    ],
+    "fechaArgentina": "18/10/2026 23:03:05 UTC-3"
+  },
+  {
+    "databaseId": 39188131263,
+    "headSha": "89ec3f0f22947336683604e98568217f6485c5a4",
+    "createdAt": "2026-10-19T02:03:11Z",
+    "conclusion": "failure",
+    "url": "https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188131263",
+    "jobUrl": "https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188131263/job/117854795044",
+    "failedSteps": [
+      "Instalar dependencias"
+    ],
+    "fechaArgentina": "18/10/2026 23:03:11 UTC-3"
+  },
+  {
+    "databaseId": 39188275442,
+    "headSha": "46dff9481638ef4acb35640b2163e174be0f6a7d",
+    "createdAt": "2026-10-19T02:05:04Z",
+    "conclusion": "success",
+    "url": "https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188275442",
+    "jobUrl": "https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188275442/job/117855232171",
+    "failedSteps": [],
+    "fechaArgentina": "18/10/2026 23:05:04 UTC-3"
+  }
+]

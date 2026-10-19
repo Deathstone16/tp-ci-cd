@@ -1,0 +1,54 @@
+{
+  "1": {
+    "mergeStateStatus": "BLOCKED",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-19T02:03:14Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188123316/job/117854770898",
+        "name": "Verificar",
+        "startedAt": "2026-10-19T02:03:07Z",
+        "status": "COMPLETED",
+        "workflowName": "CI y reporte"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-19T02:03:14Z",
+        "conclusion": "SKIPPED",
+        "detailsUrl": "https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188123316/job/117854805713",
+        "name": "Publicar reporte",
+        "startedAt": "2026-10-19T02:03:15Z",
+        "status": "COMPLETED",
+        "workflowName": "CI y reporte"
+      }
+    ],
+    "url": "https://github.com/Deathstone16/tp-ci-cd/pull/1"
+  },
+  "2": {
+    "mergeStateStatus": "BLOCKED",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-19T02:03:19Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188131263/job/117854795044",
+        "name": "Verificar",
+        "startedAt": "2026-10-19T02:03:14Z",
+        "status": "COMPLETED",
+        "workflowName": "CI y reporte"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-19T02:03:19Z",
+        "conclusion": "SKIPPED",
+        "detailsUrl": "https://github.com/Deathstone16/tp-ci-cd/actions/runs/39188131263/job/117854823132",
+        "name": "Publicar reporte",
+        "startedAt": "2026-10-19T02:03:19Z",
+        "status": "COMPLETED",
+        "workflowName": "CI y reporte"
+      }
+    ],
+    "url": "https://github.com/Deathstone16/tp-ci-cd/pull/2"
+  }
+}
