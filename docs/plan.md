@@ -1,4 +1,4 @@
-# Plan conceptual
+# Plan de trabajo
 
 ## Historia de usuario
 
@@ -8,7 +8,7 @@ y disponer de un reporte de la versión integrada.
 
 ## Tareas y criterios de aceptación
 
-| Tarea | Cómo voy a comprobarla |
+| Tarea | Criterio de aceptación |
 | --- | --- |
 | Crear el repositorio y trabajar con ramas. | Hay commits separados y un PR hacia `main`. |
 | Agregar una función simple y sus pruebas. | Los cuatro casos pasan localmente. |
@@ -20,7 +20,6 @@ y disponer de un reporte de la versión integrada.
 | Manejar un secreto sin escribir su valor. | El job accede a `secrets.DEMO_SECRET` y solo confirma su presencia. |
 | Proteger la línea base. | Un PR rojo no se puede integrar por el camino normal. |
 | Registrar errores de causas distintas. | Hay un rojo en instalación, otro en pruebas y un verde, con sus logs. |
-| Preparar la defensa. | Puedo explicar el YAML y predecir el efecto de un cambio. |
 
 ## Decisiones
 
