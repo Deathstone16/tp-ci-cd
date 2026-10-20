@@ -2,7 +2,7 @@ from calculadora import sumar
 
 
 def test_suma_positivos():
-    assert sumar(2, 3) == 5
+    assert sumar(2, 4) == 6
 
 
 def test_suma_con_cero():
